@@ -1206,6 +1206,7 @@ converse.plugins.add('converse-muc', {
                     }
                 }
                 this.save('connection_status', converse.ROOMSTATUS.ENTERED);
+                this.fetchMessages();
             },
 
             /**
